@@ -1,0 +1,19 @@
+# Alert show in WebForm
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <script src="Scripts/jquery-1.8.2.min.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:Button id="saveButton" runat="server" OnClientClick="foo()" Text="Save"/>
+    </div>
+    </form>
+</body>
+</html>
+<script type="text/javascript">
+    function foo() {
+        alert("HelloAnower!!");
+    }
+</script>
